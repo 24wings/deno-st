@@ -1,0 +1,11 @@
+deno install --allow-net --allow-read https://deno.land/std/http/file_server.ts
+
+
+chrome://inspect
+
+export PATH="/Users/wutong/.deno/bin:$PATH"
+
+
+var scriptEl=document.createElement("script");
+scriptEl.src="http://localhost:8080/scripts/loader.js";
+document.body.appendChild(scriptEl);
